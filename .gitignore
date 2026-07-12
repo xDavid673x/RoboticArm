@@ -221,3 +221,14 @@ __marimo__/
 .DS_Store
 .AppleDouble
 .LSOverride
+
+# RL training outputs (logs, weights, normalizers)
+**/logs/
+**/models/
+*.zip
+*.pkl
+
+# STM32 C Build & IDE files
+**/Debug/
+**/Release/
+**/.settings/
